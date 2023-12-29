@@ -6,7 +6,7 @@ document.querySelector('.ham').addEventListener("click", ()=>{
         document.querySelector('.ham').style.display = 'inline'
         document.querySelector('.cross').style.display = 'none'
     }
-    {
+   else {
     
         document.querySelector('.cross').style.display = 'inline'
     
