@@ -4,6 +4,10 @@
     margin: 0;
     padding: 0;
 }
+.name::selection{
+    color:yellow;
+    background-color:black;
+}
 img{
     filter: drop-shadow(10px 10px 20px black);
 }
