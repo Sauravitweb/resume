@@ -18,9 +18,7 @@ body {
 img{
     filter: drop-shadow(5px 5px 10px black);
 }
-#boxx{
-    overflow: hidden;
-} 
+
 #background {
     background: linear-gradient(to right bottom,red,blue);
 }
