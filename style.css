@@ -8,6 +8,12 @@
     color:yellow;
     background-color:black;
 }
+body {
+    background-image: url('bgimg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 img{
     filter: drop-shadow(10px 10px 20px black);
 }
