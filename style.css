@@ -54,7 +54,7 @@ padding: 28px;
 
 .sidebar nav li a{
 text-decoration: none;
-color: rgb(15, 15, 15);
+color: transition;
 }
 .main{
     /*background-color: yellow;*/
@@ -79,17 +79,19 @@ color: rgb(15, 15, 15);
 .name{
     font-size: 65px;
     font-weight: bold;
+    color: yellow;
 }
 .hello{
     font-size: 50px;
 }
 .about{
     font-size: 40px;
+    color: yellow
 }
 .moreabout{
     margin-top: 23px;
     font-size: 22px;
-
+color:yellow;
 
 }
 .buttons{
