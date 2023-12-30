@@ -83,6 +83,7 @@ color: transition;
 }
 .hello{
     font-size: 50px;
+    color: green;
 }
 .about{
     font-size: 40px;
