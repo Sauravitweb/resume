@@ -208,57 +208,56 @@ font-family: 'Fira Sans', sans-serif;
 }
 .hundred{
     width: 400px;
-    animation: fill 4s ease-in-out forwards;
-}
+    }
 .forty{
     width: 160px;
 background-color: rgb(19, 41, 36);
-    animation: fill 4s ease-in-out forwards;
+    
 }
 .fifty{
     width: 200px;
 background-color: rgb(19, 41, 236);
-    animation: fill 4s ease-in-out forwards;
+    
 }
 .thirty{
     width: 120px;
 background-color: rgb(19, 401, 386);
-    animation: fill 4s ease-in-out forwards;
+    
 }
 .twenty{
     width: 80px;
 background-color: rgb(109, 41, 306);
-    animation: fill 4s ease-in-out forwards;
+
 }
 .ten{
     width: 40px;
 background-color: rgb(1009, 41, 36);
-    animation: fill 4s ease-in-out forwards;
+    
 }
 .sixty{
     width: 240px;
 background-color: rgb(159, 401, 356);
-    animation: fill 4s ease-in-out forwards;
+    
 }
 .seventy{
     width: 280px;
 background-color: rgb(199, 419, 369);
-    animation: fill 4s ease-in-out forwards;
+    
 }
 .eighty{
     width: 320px;
 background-color: rgb(193, 241, 336);
-    animation: fill 4s ease-in-out forwards;
+    
 }
 .ninty{
     width: 200px;
 background-color: rgb(169, 421, 326);
-    animation: fill 4s ease-in-out forwards;
+    
 }
 .t5{
     width: 100px;
     background-color: rgb(18, 233, 204);
-    animation: fill 4s ease-in-out forwards;
+
 }
 .sidebargo{
     transform: translate(-443px, 0px);
