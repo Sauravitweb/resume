@@ -13,6 +13,9 @@ img{
 #boxx:hover img{
     scale: 1.2;
 }
+#background {
+    background: linear-gradient(red,blue);
+}
 #boxx img{
     transition: all ease 1s;
 }
