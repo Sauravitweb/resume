@@ -217,9 +217,9 @@ background-color: rgb(19, 41, 236);
 .ham{
     position: absolute;
     cursor: pointer;
-    top: 10px;
-    left: 10px;
-    margin-top: 10px;
+    top: 20px;
+    left: 20px;
+    margin-top: 20px;
 }
 .cross{
     margin-left: -32px;
