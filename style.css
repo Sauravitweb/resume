@@ -13,8 +13,8 @@
 }
 body {
     background-image: url('background.jpg');
-    background-size: comtain;
-    background-position: top left;
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
 }
 img{
