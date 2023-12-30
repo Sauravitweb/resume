@@ -102,6 +102,7 @@ color: rgb(15, 15, 15);
 .btn:hover{
 background-color: white;
 color: dodgerblue;
+ box-shadow: 10px 10px 20px black;
 }
 .devpic img{
 
