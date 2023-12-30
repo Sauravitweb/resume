@@ -8,6 +8,9 @@
     color:yellow;
     background-color:black;
 }
+.h1 lio{
+    color: red;
+}
 body {
     background-image: url('bgimg.jpeg');
     background-size: cover;
