@@ -206,9 +206,41 @@ font-family: 'Fira Sans', sans-serif;
 .hundred{
     width: 400px;
 }
+.forty{
+    width: 160px;
+background-color: rgb(19, 41, 36);
+}
 .fifty{
     width: 200px;
 background-color: rgb(19, 41, 236);
+}
+.thirty{
+    width: 120px;
+background-color: rgb(19, 401, 386);
+}
+.twenty{
+    width: 80px;
+background-color: rgb(109, 41, 306);
+}
+.ten{
+    width: 40px;
+background-color: rgb(1009, 41, 36);
+}
+.sixty{
+    width: 240px;
+background-color: rgb(159, 401, 356);
+}
+.seventy{
+    width: 280px;
+background-color: rgb(199, 419, 369);
+}
+.eighty{
+    width: 320px;
+background-color: rgb(193, 241, 336);
+}
+.ninty{
+    width: 200px;
+background-color: rgb(169, 421, 326);
 }
 .t5{
     width: 100px;
