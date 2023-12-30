@@ -5,13 +5,13 @@
     padding: 0;
 }
 img{
-    filter: drop-shadow(20px 20px 40px black);
+    filter: drop-shadow(10px 10px 20px black);
 }
 #boxx{
     overflow: hidden;
 } 
 #background {
-    background: linear-gradient(red,blue);
+    background: linear-gradient(to right bottom,red,blue);
 }
 #boxx:hover img{
     scale: 1.2;
@@ -111,8 +111,7 @@ color: dodgerblue;
  box-shadow: 10px 10px 0px black;
 }
 .devpic img{
-width: 40vw;
-    height: 38vh;
+    height: 58vh;
 }
 .contactform{
     padding: 0 34px;
