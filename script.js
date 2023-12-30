@@ -18,6 +18,7 @@ document.querySelector('.ham').addEventListener("click", ()=>{
 
 function closesidebar() {
   
+  document.querySelector(".ham").style.display = "block";
   document.querySelector(".cross").style.display = "none";
 }
 
