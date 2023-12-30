@@ -76,10 +76,7 @@ color: yellow;
     flex-direction: column;
 }
 
-@keyframes fill {
-      to {
-        width: 100%;
-      }
+
 .name{
     font-size: 65px;
     font-weight: bold;
@@ -204,7 +201,7 @@ font-family: 'Fira Sans', sans-serif;
     height: 10px;
     background-color: red;
     border: 3px solid black;
-    animation: fill 4s ease-in-out forwards;
+    
 }
 .blogcontainer{
     margin: 88px 88px;
