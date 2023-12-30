@@ -240,22 +240,5 @@ margin-top: 10px;
     margin-left: -32px;
     margin-top: 10px;
 }
-margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-        }
 
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            text-align: center;
-            padding: 20px;
-        }
-
-        .profile-picture {
-            width: 100%;
-            max-width: 300px; /* Adjust the maximum width as needed */
-            border-radius: 50%;
-                }
-
-
+    
