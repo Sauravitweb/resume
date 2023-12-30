@@ -80,6 +80,7 @@ color: yellow;
       height: 100%;
       background-color: #3498db;
       animation: fill 4s ease-in-out forwards;
+}
 .name{
     font-size: 65px;
     font-weight: bold;
