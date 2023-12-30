@@ -111,7 +111,8 @@ color: dodgerblue;
  box-shadow: 10px 10px 0px black;
 }
 .devpic img{
-    height: 58vh;
+    width:38vw;
+    height: 38vh;
 }
 .contactform{
     padding: 0 34px;
