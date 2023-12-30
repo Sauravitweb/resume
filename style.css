@@ -51,8 +51,8 @@ color: rgb(15, 15, 15);
 }
 .infocontainer{
     /*background-color: rgb(134, 206, 18);*/
-    height: 58vh;
-    width: 80vw;
+    height: 58vh auto;
+    width: 80vw auto;
     margin: 144px auto;
     display: flex;
     justify-content: space-around;
