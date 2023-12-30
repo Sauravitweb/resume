@@ -127,11 +127,11 @@ color: dodgerblue;
  box-shadow: 10px 10px 0px black;
 }
 .devpic img{
-    width: 50vw;
-    height: 48vh;
+    width: 20vw;
+    height: 24vh;
     display: flex;
-            justify-content: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
             
     
 }
