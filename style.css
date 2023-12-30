@@ -217,7 +217,7 @@ background-color: rgb(19, 41, 236);
     transform: translate(-443px, 0px);
     position: absolute;
 }
-.ham{
+.ham .portfolio{
     position: absolute;
     cursor: pointer;
     top: 20px;
