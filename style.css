@@ -129,6 +129,7 @@ color: dodgerblue;
 .devpic img{
     width: 50vw;
     height: 48vh;
+    image position: center;
 }
 .contactform{
     padding: 0 34px;
