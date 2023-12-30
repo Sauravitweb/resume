@@ -23,7 +23,7 @@ img{
     background: linear-gradient(to right bottom,red,blue);
 }
 #boxx:hover img{
-    scale: 1.2;
+    scale: 2;
 }
 
 #boxx img{
