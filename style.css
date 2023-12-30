@@ -91,14 +91,14 @@ color: rgb(15, 15, 15);
     font-weight: bold;
     font-size: 21px;
     margin: 0 5px;
-    transition: all ease 1s;
+    transition: all ease 0.1s;
 
 }
 .btn-sm{
     font-size: 17px;
     padding: 10px 19px;
     margin: 12px 0;
-    transition: all ease 1s;
+    transition: all ease 0.1s;
 }
 
 .btn:hover{
