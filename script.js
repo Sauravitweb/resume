@@ -10,7 +10,7 @@ document.querySelector('.ham').addEventListener("click", ()=>{
     
         
     
-        document.querySelector('.ham').style.display = 'none';
+        document.querySelector('.ham').style.display = 'inline';
 }
 }
 )
