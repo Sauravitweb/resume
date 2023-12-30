@@ -51,8 +51,8 @@ color: rgb(15, 15, 15);
 }
 .infocontainer{
     /*background-color: rgb(134, 206, 18);*/
-    height: 58vh auto;
-    width: 80vw auto;
+    height: 58vh;
+    width: 80vw;
     margin: 144px auto;
     display: flex;
     justify-content: space-around;
@@ -107,7 +107,7 @@ color: dodgerblue;
  box-shadow: 10px 10px 0px black;
 }
 .devpic img{
-
+width: 40vw;
     height: 38vh;
 }
 .contactform{
