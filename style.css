@@ -14,7 +14,7 @@
 body {
     background-image: url('background.jpg');
     background-size: contain;
-    background-position: centrr;
+    background-position: center;
     background-repeat: no-repeat;
 }
 img{
@@ -128,7 +128,7 @@ color: dodgerblue;
 }
 .devpic img{
     width: 20vw;
-    height: 24vh;
+    height: 44vh;
     display: flex;
     justify-content: center;
     align-items: center;
