@@ -10,6 +10,9 @@ img{
 #boxx{
     overflow: hidden;
 } 
+#background {
+    background: linear-gradient(red,blue);
+}
 #boxx:hover img{
     scale: 1.2;
 }
