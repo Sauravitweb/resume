@@ -15,3 +15,10 @@ document.querySelector('.ham').addEventListener("click", ()=>{
 }
 )
 
+
+function closesidebar() {
+  document.getElementById("sidebar").style.width = "0";
+  document.querySelector(".ham").style.display = "block";
+  document.querySelector(".cross").style.display = "none";
+}
+
