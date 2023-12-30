@@ -7,6 +7,15 @@
 img{
     filter: drop-shadow(20px 20px 40px black);
 }
+#boxx{
+    overflow: hidden;
+} 
+#boxx:hover img{
+    scale: 1.2;
+}
+#boxx img{
+    transition: all ease 1s;
+}
 
 .sidebar{
    background-color: rgb(197, 191, 191);
