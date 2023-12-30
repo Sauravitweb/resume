@@ -14,7 +14,7 @@
 body {
     background-image: url('background.jpg');
     background-size: contain;
-    background-position: contain;
+    background-position: top left;
     background-repeat: no-repeat;
 }
 img{
