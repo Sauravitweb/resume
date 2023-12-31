@@ -31,7 +31,10 @@
             </div>
             <div class="contactform">
                 <h1>Contact me for work/general Enquiries</h1>
-                <form onsubmit="sendemail(); reset(); return false;">
+                <form 
+                    action="https://formspree.io/f/xoqgqevv"
+                   method="POST"
+                    >
                     <div class="mb-3">
                       <label for="clientname" class="form-label">Name</label>
                       <input type="name" class="form-control" id="clientname" aria-describedby="emailHelp">
@@ -60,26 +63,8 @@
                 </div>
         </div>
     </div>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    
     <script src="script.js"></script>
-    <script>
-        function sendemail(){
-
-Email.send({
-Host : "smtp.gmail.com",
-Username: "sauravfrefir@gmail.com",
-Password: "@@SKnp12",
-To: 'saurav.khanal2888gmail.com',
-From : document.getElementById("clientemail").value,
-Subject: "New Contact Form Enquiry",
-Body : "And this is the body"
-}).then(
-
-message => alert(message)
-
-);
-
-        }
-    </script>
+    
 </body>
 </html>
