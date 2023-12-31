@@ -7,22 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saurav Khanal - Web Developer, Programmer, ML Enthusiast</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-    .skill-bar {
-      width: 300px;
-      height: 20px;
-      background-color: #f0f0f0;
-      margin-bottom: 10px;
-      overflow: hidden;
-    }
 
-    .fill-bar {
-      height: 100%;
-      width: 0;
-      background-color: #3498db; /* Adjust color as needed */
-      transition: width 1s ease; /* Adjust animation duration */
-    }
-    </style>
 </head>
 
 <body>
@@ -47,11 +32,11 @@
             <div class="cross">    
             <img class="cross" src="cross.jpg" alt="closesidebar" onclick="closesidebar()" width="23">            
             </div>
-            <!--<div class="intro">
+            <div class="intro">
                 <h1>About me</h1><p>"Passionate Web Developer and IT Student | Crafting Digital Experiences | Bridging Creativity with Code | Let's Build the Future Together!"
                 </p>
                 <h2>My skills</h2>
-                <!--<div class="skillcontainer"></div>
+                <div class="skillcontainer"></div>
                 <div class="skillitem">HTML:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div class="skill"></div></div>
                 <div class="skillitem">CSS:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div class="skill fifty"></div></div>
                 <div class="skillitem">javascript: <div class="skill fifty"></div></div>
@@ -65,24 +50,7 @@
                 <div class="filling-box">
     
             <!-- TODO: Create a gallery for my project -->
-                <div class="skill">
-  <p>HTML</p>
-  <div class="skill-bar">
-    <div class="fill-bar" id="htmlSkill"></div>
-  </div>
-</div>
-
-<div class="skill">
-  <p>CSS</p>
-  <div class="skill-bar">
-    <div class="fill-bar" id="cssSkill"></div>
-  </div>
-</div>
-
-<div class="skill">
-  <p>JavaScript</p>
-  <div class="skill-bar">
-    <div class="fill-bar" id="jsSkill"></div>
+                
   </div>
 </div>
         </div>
@@ -91,27 +59,7 @@
         
         </div>
 </div>
-    <script>
-  function fillSkill(skillId, percentage) {
-    const fillBar = document.getElementById(skillId);
-    fillBar.style.width = `${percentage}%`;
-  }
-
-  // Example: Fill HTML skill to 80% after 2 seconds
-  setTimeout(function() {
-    fillSkill('htmlSkill', 80);
-  }, 2000);
-
-  // Example: Fill CSS skill to 70% after 4 seconds
-  setTimeout(function() {
-    fillSkill('cssSkill', 70);
-  }, 4000);
-
-  // Example: Fill JavaScript skill to 90% after 6 seconds
-  setTimeout(function() {
-    fillSkill('jsSkill', 90);
-  }, 6000);
-    </script>
+    
     <script src="script.js"></script>
 </body>
 
