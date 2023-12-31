@@ -172,9 +172,16 @@ padding: 12px 0;
 .blogitem{
 margin: 20px;
 font-family: 'Fira Sans', sans-serif;
+width:350px;
+background-color: #ffffff;
+border: 1px solid #ececec;
 }
 .blogcontainer{
-    margin: 88px 8px;
+ margin: 88px 8px;
+display: flex;
+justify-content: center;
+align-items:center;
+flex-wrap: wrap;
 }
 
  h1{
