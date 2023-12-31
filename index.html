@@ -34,9 +34,9 @@
                     
                     <div class="name">Hi! its Saurav</div>
                     <div class="hello">
-                        And I'm <span id="role" class="highlight"></span>.
+                        And I'm <span id="role" class="highlight">developer</span>
                     </div>
-                   </--- <div class="about"></div>  --->
+                   
                     <div class="moreabout"> Hello Friend, Thanks for visiting my Portfolio.<br> If you are interested to know more on my background,<br> you are on the right platform.
                     </div>
                     <div class="buttons"><a href="/cv of saurav.pdf">
@@ -51,7 +51,7 @@
     </div></div>
     <script>
   const roleSpan = document.getElementById('role');
-  const roles = ["developer", "IT student", "programmer"];
+  const roles = ["Developer", "IT Student", "Programmer", "Graphics Designer"];
   let roleIndex = 0;
   let letterIndex = 0;
 
@@ -63,9 +63,9 @@
       letterIndex = 0;
       roleIndex = (roleIndex + 1) % roles.length;
 
-      setTimeout(typeRole, 1000); // Delay before typing the next role
+      setTimeout(typeRole, 2000); // Delay before typing the next role
     } else {
-      setTimeout(typeRole, 100); // Speed of typing (adjust as needed)
+      setTimeout(typeRole, 200); // Speed of typing (adjust as needed)
     }
   }
 
