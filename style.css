@@ -170,11 +170,12 @@ padding: 12px 0;
 }
 
 .blogitem{
-margin: 200px;
+margin: 20px;
 font-family: 'Fira Sans', sans-serif;
 }
 .blogcontainer{
     margin: 88px 88px;
+    padding: 200px 200px;
 }
  h1{
     margin: 23px;
