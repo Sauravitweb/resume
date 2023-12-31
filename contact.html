@@ -66,21 +66,13 @@
         function sendemail(){
 
 Email.send({
-
 Host : "smtp.gmail.com",
-
 Username: "sauravkhanal288@gmail.com",
-
 Password: "@@SKnp12",
-
 To: 'saurav.khanal2888gmail.com',
-
-From : document.getElementById("email").value,
-
+From : document.getElementById("clientemail").value,
 Subject: "New Contact Form Enquiry",
-
 Body : "And this is the body"
-
 }).then(
 
 message => alert(message)
