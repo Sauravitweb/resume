@@ -31,10 +31,11 @@
             </div>
             <div class="infocontainer">
                 <div class="devinfo">
+                    
+                    <div class="name">Hi! its Saurav</div>
                     <div class="hello">
-                        HI I am 
+                        And I'm <span id="role" class="highlight">developer</span>.
                     </div>
-                    <div class="name">Saurav Khanal</div>
                     <div class="about">Developer, Entrepreneur, Programmer</div>
                     <div class="moreabout"> Hello Friend, Thanks for visiting my Portfolio.<br> If you are interested to know more on my background,<br> you are on the right platform.
                     </div>
@@ -48,6 +49,22 @@
             </div>
         </div>
     </div></div>
+    <script>
+  function cycleRoles() {
+    const roles = ["developer", "IT student", "programmer"];
+    const roleSpan = document.getElementById('role');
+    
+    let index = 0;
+
+    setInterval(function() {
+      roleSpan.textContent = roles[index];
+      index = (index + 1) % roles.length;
+    }, 2000); // Change role every 2 seconds
+  }
+
+  // Start cycling roles
+  cycleRoles();
+    </script>
     <script src="script.js"></script>
 </div>
 </body>
