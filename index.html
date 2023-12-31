@@ -34,9 +34,9 @@
                     
                     <div class="name">Hi! its Saurav</div>
                     <div class="hello">
-                        And I'm <span id="role" class="highlight">developer</span>.
+                        And I'm <span id="role" class="highlight"></span>.
                     </div>
-                    <div class="about">Developer, Entrepreneur, Programmer</div>
+                   </--- <div class="about"></div>  --->
                     <div class="moreabout"> Hello Friend, Thanks for visiting my Portfolio.<br> If you are interested to know more on my background,<br> you are on the right platform.
                     </div>
                     <div class="buttons"><a href="/cv of saurav.pdf">
@@ -50,21 +50,28 @@
         </div>
     </div></div>
     <script>
-  function cycleRoles() {
-    const roles = ["developer", "IT student", "programmer"];
-    const roleSpan = document.getElementById('role');
-    
-    let index = 0;
+  const roleSpan = document.getElementById('role');
+  const roles = ["developer", "IT student", "programmer"];
+  let roleIndex = 0;
+  let letterIndex = 0;
 
-    setInterval(function() {
-      roleSpan.textContent = roles[index];
-      index = (index + 1) % roles.length;
-    }, 2000); // Change role every 2 seconds
+  function typeRole() {
+    roleSpan.textContent = roles[roleIndex].substring(0, letterIndex + 1);
+    letterIndex++;
+
+    if (letterIndex > roles[roleIndex].length) {
+      letterIndex = 0;
+      roleIndex = (roleIndex + 1) % roles.length;
+
+      setTimeout(typeRole, 1000); // Delay before typing the next role
+    } else {
+      setTimeout(typeRole, 100); // Speed of typing (adjust as needed)
+    }
   }
 
-  // Start cycling roles
-  cycleRoles();
-    </script>
+  // Start typing roles
+  typeRole();
+</script>
     <script src="script.js"></script>
 </div>
 </body>
