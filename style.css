@@ -223,6 +223,7 @@ display: -webkit-box;
 -webkit-box-orient: vertical;
 overflow: hidden;
 text-overflow: ellipsis;
+    margin: 20px 0px;
 }
  h1{
     margin: 23px;
