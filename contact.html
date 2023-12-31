@@ -62,5 +62,32 @@
     </div>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="script.js"></script>
+    <script>
+        function sendemail(){
+
+Email.send({
+
+Host : "smtp.gmail.com",
+
+Username: "sauravkhanal288@gmail.com",
+
+Password: "@@SKnp12",
+
+To: 'saurav.khanal2888gmail.com',
+
+From : document.getElementById("email").value,
+
+Subject: "New Contact Form Enquiry",
+
+Body : "And this is the body"
+
+}).then(
+
+message => alert(message)
+
+);
+
+        }
+    </script>
 </body>
 </html>
