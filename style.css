@@ -13,7 +13,7 @@
     border-top-color: #333;
     animation: rotate 1s infinte;
 }
-@keyframe rotate{
+@keyframes rotate {
 100% {
 rotate: 360deg;
 }
