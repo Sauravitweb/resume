@@ -4,6 +4,20 @@
     margin: 0;
     padding: 0;
 }
+#loader{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    border: 5px solid #ddd;
+    border-top-color: #333;
+    animation: rotate 1s infinte;
+}
+@keyframe rotate{
+100% {
+rotate: 360deg;
+}
+}
 .name::selection{
     color:yellow;
     background-color:black;
