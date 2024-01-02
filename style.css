@@ -14,7 +14,7 @@
     animation: rotate 1s infinte;
 }
 @keyframes rotate {
-100% {
+100%{
 rotate: 360deg;
 }
 }
