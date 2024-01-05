@@ -189,8 +189,7 @@ font-family: 'Fira Sans', sans-serif;
 width:350px;
 background-color: #ffffff;
 border: 1px solid #ececec;
-    height: 100%;
-    width: 100%;
+
 }
 .blogcontainer{
  margin: 88px 8px;
@@ -198,6 +197,8 @@ display: flex;
 justify-content: center;
 align-items:center;
 flex-wrap: wrap;
+    height: 100%
+    width: 100%;
 }
 .blog-img{
 
