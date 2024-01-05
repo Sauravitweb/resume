@@ -27,8 +27,6 @@ rotate: 360deg;
 }
 body {
     background-image: url('background.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
     
 }
 img{
