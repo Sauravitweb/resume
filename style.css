@@ -189,6 +189,8 @@ font-family: 'Fira Sans', sans-serif;
 width:350px;
 background-color: #ffffff;
 border: 1px solid #ececec;
+    height: 100%;
+    width: 100%;
 }
 .blogcontainer{
  margin: 88px 8px;
