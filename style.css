@@ -47,7 +47,7 @@ img{
 .sidebar{
    background-color: transparent;
     
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     height: 100vh;
     transition: transform 0.3s ease-in;
     
