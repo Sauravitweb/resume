@@ -289,6 +289,9 @@ padding: 20px;
     padding: 22px;
     width: 12px;
 }
+.infocontainer{
+    padding: 22px;
+}
 .skillitem{
     display: flex;
     align-items: center;
