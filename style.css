@@ -152,7 +152,7 @@ color: dodgerblue;
     padding: 0 34px;
     padding-top: 144px;
     font-family: 'Fira Sans', sans-serif;   
-    margin: 0 88px;
+    margin: 0 60px;
 }
 .contactform h1{
 padding: 12px 0;
@@ -164,7 +164,7 @@ padding: 12px 0;
 
 }
 .contactform form div input{ 
-    width: 26vw;
+    width: 50vw;
     border-radius: 5px;
     margin: 6px 0 0 0;
     padding: 3px 0 ;
