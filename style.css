@@ -273,6 +273,9 @@ padding: 20px;
     margin: 23px;
     
 }
+.column{
+    flex-wrap: wrap;
+}
 .intro{
     
     margin: 80px 30px;
