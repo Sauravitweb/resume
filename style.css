@@ -274,6 +274,7 @@ padding: 20px;
     
 }
 .column{
+    display: flex;
     flex-wrap: wrap;
 }
 .intro{
