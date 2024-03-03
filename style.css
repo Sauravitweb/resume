@@ -273,10 +273,7 @@ padding: 20px;
     margin: 23px;
     
 }
-.column{
-    display: flex;
-    flex-wrap: wrap;
-}
+
 .intro{
     
     margin: 80px 30px;
