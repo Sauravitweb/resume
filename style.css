@@ -48,7 +48,7 @@ img{
    background-color: #723923;
     
     font-family: 'Fira Sans', sans-serif;
-    height: 100vh;
+    height: Auto;
     transition: transform 0.3s ease-in;
     
 }
@@ -361,7 +361,7 @@ background-color: rgb(169, 421, 326);
 .sidebargo{
     transform: translate(-443px, 0px);
     position: absolute;
-    height: 100vh;
+    height: Auto;
 }
 .ham {
     position: absolute;
