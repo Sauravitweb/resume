@@ -361,6 +361,7 @@ background-color: rgb(169, 421, 326);
 .sidebargo{
     transform: translate(-443px, 0px);
     position: absolute;
+    height: 100vh;
 }
 .ham {
     position: absolute;
