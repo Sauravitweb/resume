@@ -37,6 +37,7 @@ img{
     background: linear-gradient(to right bottom,red,blue);
 }
 #boxx:hover img{
+    padding: 10 0 0 0;
     scale: 2;
 }
 
