@@ -47,8 +47,8 @@ img{
 
 .sidebar{
    background-color: #00EEFF;
-    
-    font-family: 'Fira Sans', sans-serif;
+    width: 20vw;
+    font0-family: 'Fira Sans', sans-serif;
     height: 100vh;
     transition: transform 0.3s ease-in;
     
