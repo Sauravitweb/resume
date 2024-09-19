@@ -299,7 +299,7 @@ padding: 20px;
     align-items: center;
 }
 .skill {
-    width: 100vw;
+    width: 50vw;
     height: 10px;
     background-color: red;
     border: 3px solid black;
@@ -307,55 +307,55 @@ padding: 20px;
 }
 
 .hundred{
-    width: 100vw;
+    width: 50vw;
     }
 .forty{
-    width: 40vw;
+    width: 20vw;
 background-color: rgb(19, 41, 36);
     
 }
 .fifty{
-    width: 50vw;
+    width: 25vw;
 background-color: rgb(19, 41, 236);
     
 }
 .thirty{
-    width: 30vw;
+    width: 15vw;
 background-color: rgb(19, 401, 386);
     
 }
 .twenty{
-    width: 20vw;
+    width: 10vw;
 background-color: rgb(109, 41, 306);
 
 }
 .ten{
-    width: 10vw;
+    width: 5vw;
 background-color: rgb(1009, 41, 36);
     
 }
 .sixty{
-    width: 60vw;
+    width: 30vw;
 background-color: rgb(159, 401, 356);
     
 }
 .seventy{
-    width: 70vw;
+    width: 35vw;
 background-color: rgb(199, 419, 369);
     
 }
 .eighty{
-    width: 80vw;
+    width: 40vw;
 background-color: rgb(193, 241, 336);
     
 }
 .ninty{
-    width: 90vw;
+    width: 45vw;
 background-color: rgb(169, 421, 326);
     
 }
 .t5{
-    width: 100vw;
+    width: 50vw;
     background-color: rgb(18, 233, 204);
 
 }
