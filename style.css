@@ -4,6 +4,11 @@
     margin: 0;
     padding: 0;
 }
+h1.blgtitle {
+    margin-top: 160px;
+    text-align: center;
+}
+
 #loader{
     height: 100px;
     width: 100px;
@@ -210,7 +215,7 @@ padding: 12px 0;
 .blogitem{
 margin: 20px;
 font-family: 'Fira Sans', sans-serif;
-width:350px;
+width:40vw;
 background-color: #ffffff;
 border: 1px solid #ececec;
 
