@@ -48,7 +48,7 @@ img{
 .sidebar{
    background-color: #00EEFF;
     width: 20vw;
-    font0-family: 'Fira Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     height: 100vh;
     transition: transform 0.3s ease-in;
     
@@ -70,6 +70,7 @@ padding: 28px;
 text-decoration: none;
 color: #111111;
 }
+/* 
 .main{
     /*background-color: yellow;*/
     width: 100vw;
