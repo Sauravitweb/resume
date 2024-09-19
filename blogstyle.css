@@ -30,15 +30,16 @@ img{
     transition: all ease 1s;
 }
 
+
 .sidebar{
-   background-color: #00EEFF;
-    
+   background-color: #00FFFF;
+    width: 100vw;
+    align-items: center;
     font-family: 'Fira Sans', sans-serif;
     height: 100vh;
     transition: transform 0.3s ease-in;
     
 }
-
 .sidebar nav{
 
 padding: 34px;
