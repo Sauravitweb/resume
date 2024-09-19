@@ -47,7 +47,7 @@ img{
 
 .sidebar{
    background-color: #00EEFF;
-    width: 100vw;
+    width: 10vw;
     font0-family: 'Fira Sans', sans-serif;
     height: 100vh;
     transition: transform 0.3s ease-in;
@@ -360,7 +360,7 @@ background-color: rgb(169, 421, 326);
 
 }
 .sidebargo{
-    transform: translate(-443px, 0px);
+    transform: translate(-100vw, 100vw );
     position: absolute;
     height: Auto;
 }
