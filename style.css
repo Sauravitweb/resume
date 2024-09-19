@@ -68,7 +68,7 @@ padding: 28px;
 
 .sidebar nav li a{
 text-decoration: none;
-color: yellow;
+color: #111111;
 }
 .main{
     /*background-color: yellow;*/
@@ -96,7 +96,7 @@ color: yellow;
 .name{
     font-size: 65px;
     font-weight: bold;
-    color: yellow;
+    color: #111111;
 }
 .hello{
     font-size: 50px;
@@ -109,7 +109,7 @@ color: yellow;
 .moreabout{
     margin-top: 23px;
     font-size: 22px;
-color:yellow;
+color: #111111;
 
 }
 .buttons{
