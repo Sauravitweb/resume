@@ -299,7 +299,7 @@ padding: 20px;
     align-items: center;
 }
 .skill {
-    width: 400px;
+    width: 100vw;
     height: 10px;
     background-color: red;
     border: 3px solid black;
