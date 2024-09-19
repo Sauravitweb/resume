@@ -360,7 +360,7 @@ background-color: rgb(169, 421, 326);
 
 }
 .sidebargo{
-    transform: translate(-100vw, 100vw );
+    transform: translate(-50vw, 400vw );
     position: absolute;
     height: Auto;
 }
