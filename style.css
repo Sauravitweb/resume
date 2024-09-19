@@ -307,55 +307,55 @@ padding: 20px;
 }
 
 .hundred{
-    width: 400px;
+    width: 400vw;
     }
 .forty{
-    width: 160px;
+    width: 160vw;
 background-color: rgb(19, 41, 36);
     
 }
 .fifty{
-    width: 200px;
+    width: 200vw;
 background-color: rgb(19, 41, 236);
     
 }
 .thirty{
-    width: 120px;
+    width: 120vw;
 background-color: rgb(19, 401, 386);
     
 }
 .twenty{
-    width: 80px;
+    width: 80vw;
 background-color: rgb(109, 41, 306);
 
 }
 .ten{
-    width: 40px;
+    width: 40vw;
 background-color: rgb(1009, 41, 36);
     
 }
 .sixty{
-    width: 240px;
+    width: 240vw;
 background-color: rgb(159, 401, 356);
     
 }
 .seventy{
-    width: 280px;
+    width: 280vw;
 background-color: rgb(199, 419, 369);
     
 }
 .eighty{
-    width: 320px;
+    width: 320vw;
 background-color: rgb(193, 241, 336);
     
 }
 .ninty{
-    width: 200px;
+    width: 200vw;
 background-color: rgb(169, 421, 326);
     
 }
 .t5{
-    width: 100px;
+    width: 100vw;
     background-color: rgb(18, 233, 204);
 
 }
