@@ -239,17 +239,28 @@ transition: all ease 0.3s;
 .blog-box{
 width: 300px;
 }
+    sidebar{
+    width: 100vw;
+    }
 }
 @media(max-width:1100px){
 .blog-box{
 width:70%;
 }
+    
+    sidebar{
+    width: 100vw;
+    }
 }
 @media(max-width:550px){
 .blog-box{
 margin: 20px 10px;
 width: 100%;
 }
+    
+    sidebar{
+    width: 100vw;
+    }
 #blog{
 padding: 20px;
 }
