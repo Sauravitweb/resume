@@ -14,8 +14,10 @@
     animation: rotate 1s infinte;
 }
 nav {
-    display: inline;
-    unicode-bidi: isolate;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 ul {
     display: block;
