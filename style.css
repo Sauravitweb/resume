@@ -67,7 +67,7 @@ img{
 }
 
 .sidebar{
-   background-color: #00EEFF;
+   background-color: #00FFFE;
     width: 100vw;
     align-items: center;
     font-family: 'Fira Sans', sans-serif;
@@ -383,7 +383,7 @@ background-color: rgb(169, 421, 326);
 
 }
 .sidebargo{
-    transform: translate(-1375px, 0px );
+    transform: translate(-389px, -20049px);
     position: absolute;
     height: Auto;
 }
