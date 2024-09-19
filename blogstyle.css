@@ -31,7 +31,7 @@ img{
 }
 
 .sidebar{
-   background-color: #723923;
+   background-color: #00EEFF;
     
     font-family: 'Fira Sans', sans-serif;
     height: 100vh;
@@ -53,7 +53,7 @@ padding: 34px;
 
 .sidebar nav li a{
 text-decoration: none;
-color: yellow;
+color: Black;
 }
 .main{
     /*background-color: yellow;*/
