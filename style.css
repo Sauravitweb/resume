@@ -8,7 +8,9 @@ h1.blgtitle {
     margin-top: 160px;
     text-align: center;
 }
-
+canvas {
+            border: 1px solid lightgray;
+}
 #loader{
     height: 100px;
     width: 100px;
