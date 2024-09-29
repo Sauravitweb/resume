@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
-body{
-    color: white;
+
+.port
+{
+ color: white;
 }
 *{
     margin: 0;
@@ -136,7 +138,8 @@ color: #111111;
 .name{
     font-size: 65px;
     font-weight: bold;
-    color: #111111;
+     color: white;
+/* beforecolor: #111111; */
 }
 .hello{
     font-size: 50px;
@@ -149,7 +152,8 @@ color: #111111;
 .moreabout{
     margin-top: 23px;
     font-size: 22px;
-color: #111111;
+/* beforecolor: #111111; */
+     color: white;
 
 }
 .buttons{
