@@ -67,7 +67,7 @@ rotate: 360deg;
 }
 body {
    /* background-image: url('background.jpg');*/
-    background-color: #00FFFF;
+    background-color: #123636;
 }
 img{
     filter: drop-shadow(5px 5px 10px black);
