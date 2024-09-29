@@ -8,6 +8,10 @@ body
 {
  color: white;
 }
+*::selection{
+    color:yellow;
+    background-color:black;
+}
 *{
     margin: 0;
     padding: 0;
