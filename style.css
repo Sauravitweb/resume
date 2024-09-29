@@ -20,9 +20,12 @@ canvas {
     border-top-color: #333;
     animation: rotate 1s infinte;
 }
-video
-{
-      z-index: -1;
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 nav {
     display: flex;
