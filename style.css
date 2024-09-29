@@ -20,6 +20,10 @@ canvas {
     border-top-color: #333;
     animation: rotate 1s infinte;
 }
+video
+{
+      z-index: -1;
+}
 nav {
     display: flex;
     flex-wrap: wrap;
