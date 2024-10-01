@@ -146,7 +146,7 @@ color: white;
 .name{
     font-size: 65px;
     font-weight: bold;
-     color: white;
+     color: #07fd77a3;
 /* beforecolor: #111111; */
 }
 .hello{
@@ -161,7 +161,7 @@ color: white;
     margin-top: 23px;
     font-size: 22px;
 /* beforecolor: #111111; */
-     color: white;
+     color: #07fd77a3;
 
 }
 .buttons{
