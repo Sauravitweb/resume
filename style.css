@@ -307,10 +307,20 @@ transition: all ease 0.3s;
 .blog-box{
 width: 300px;
 }
+ .blogitem{
+
+width:90vw;
+
+}
 }
 @media(max-width:1100px){
 .blog-box{
 width:70%;
+}
+  .blogitem{
+
+width:90vw;
+
 }
 }
 @media(max-width:550px){
@@ -320,6 +330,11 @@ width: 100%;
 }
 #blog{
 padding: 20px;
+}
+  .blogitem{
+
+width:90vw;
+
 }
 }
  h1{
