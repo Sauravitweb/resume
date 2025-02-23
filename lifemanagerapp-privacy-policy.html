@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 
 <html lang="en">
 <head>
@@ -167,6 +167,95 @@
     </div>
 </div>
  <script src="script.js"></script>
+
+</body>
+</html>
+ -->
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Privacy Policy</title>
+    <link rel="stylesheet" href="blogstyle.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1354212710629545" crossorigin="anonymous"></script>
+    
+    <!-- Google Consent Mode for GDPR Compliance -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZY6M9ZQDK3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        
+        function consentGranted() {
+            gtag('consent', 'update', {
+                'analytics_storage': 'granted',
+                'ad_storage': 'granted'
+            });
+        }
+
+        function consentDenied() {
+            gtag('consent', 'update', {
+                'analytics_storage': 'denied',
+                'ad_storage': 'denied'
+            });
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'G-ZY6M9ZQDK3');
+    </script>
+</head>
+<body>
+
+    <!-- Consent Banner for GDPR Compliance -->
+    <div id="cookie-consent-banner" class="cookie-banner">
+        <p>We use cookies to enhance your experience. By continuing, you agree to our <a href="/privacy-policy.html">Privacy Policy</a>.</p>
+        <button onclick="acceptCookies()">Accept</button>
+        <button onclick="rejectCookies()">Decline</button>
+    </div>
+
+    <script>
+        function acceptCookies() {
+            document.getElementById("cookie-consent-banner").style.display = "none";
+            consentGranted();
+            localStorage.setItem("cookieConsent", "accepted");
+        }
+
+        function rejectCookies() {
+            document.getElementById("cookie-consent-banner").style.display = "none";
+            consentDenied();
+            localStorage.setItem("cookieConsent", "denied");
+        }
+
+        // Show banner if no consent stored
+        window.onload = function() {
+            if (!localStorage.getItem("cookieConsent")) {
+                document.getElementById("cookie-consent-banner").style.display = "block";
+            }
+        };
+    </script>
+
+    <div class="container">
+        <div class="sidebar sidebargo"> 
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/intro.html">My Intro</a></li>
+                    <li><a href="/services.html">Services</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact me</a></li>
+                    <li><a href="/privacy-settings.html">Privacy Settings</a></li> <!-- Privacy Management Page -->
+                </ul>
+            </nav>
+        </div>
+
+        <div class="main">
+            <h1>Privacy Policy</h1>
+            <p>Your privacy is important to us. Manage your preferences in the <a href="/privacy-settings.html">Privacy Settings</a>.</p>
+        </div>
+    </div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
